@@ -1,0 +1,158 @@
+{
+  "name": "Wereld1",
+  "ogmoVersion": "3.3.0",
+  "levelPaths": ["."],
+  "backgroundColor": "#282c34ff",
+  "gridColor": "#3c4049cc",
+  "anglesRadians": false,
+  "directoryDepth": 5,
+  "layerGridDefaultSize": {"x": 32, "y": 32},
+  "levelDefaultSize": {"x": 320, "y": 240},
+  "levelMinSize": {"x": 960, "y": 640},
+  "levelMaxSize": {"x": 960, "y": 640},
+  "levelValues": [],
+  "defaultExportMode": ".json",
+  "compactExport": false,
+  "externalScript": "",
+  "playCommand": "",
+  "entityTags": [],
+  "layers": [
+    {
+      "definition": "tile",
+      "name": "Tile_layer",
+      "gridSize": {"x": 32, "y": 32},
+      "exportID": "38411302",
+      "exportMode": 1,
+      "arrayMode": 0,
+      "defaultTileset": "Jungle_tiles"
+    },
+    {
+      "definition": "entity",
+      "name": "Entity_layer",
+      "gridSize": {"x": 32, "y": 32},
+      "exportID": "38609879",
+      "requiredTags": [],
+      "excludedTags": []
+    }
+  ],
+  "entities": [
+    {
+      "exportID": "38604099",
+      "name": "Player",
+      "limit": -1,
+      "size": {"x": 64, "y": 64},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#ff0000ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 64, "y": 64},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": [],
+      "texture": "../../Documents/GitHub/Testproject/Game sprites/Entities/Billy1.png",
+      "textureImage": "data:image/png;base64,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"
+    },
+    {
+      "exportID": "38615786",
+      "name": "Enemy",
+      "limit": -1,
+      "size": {"x": 32, "y": 32},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#ff0000ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 32, "y": 32},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": [],
+      "texture": "../../Documents/GitHub/Testproject/Game sprites/Entities/Enemy.png",
+      "textureImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADcSURBVEhL7Y/RDYMgFEVZsHP0twt0jI7Sb+foDB3CXrnXFwIFsYLGpCckJsI7B9zYmeMCbhuypAHtOzcUeS8Bg4T8GLQDmTJIkwcGCfkBNd4U+QLokdQCBfX9erGlXwlyB1jj0AClz8fNVi4jqwcqs4MdAy+PJgIozak5JXeANeKAIUEGHZqR1TPdv/ACQ6YMOjQjt6c2sAq5A6zRPjDdv+sLugeINU4YgMrs4IQvII0DGI+gFjQL0JPyD5DlAMChHzKckuIb8d6qRllNdg8AjFWigSJVh7bQOTCOHxiFf1HdL9DoAAAAAElFTkSuQmCC"
+    },
+    {
+      "exportID": "38611398",
+      "name": "Food",
+      "limit": -1,
+      "size": {"x": 32, "y": 32},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#ff0000ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 32, "y": 32},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": [],
+      "texture": "../../Documents/GitHub/Testproject/Game sprites/Entities/Food.png",
+      "textureImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIJSURBVFhH7ZUxSwNBEIUnYmFhFy5tRGzsjFUMWCqWNgqipNImFlbqbxDFzjRaiRLQxlK0FFQQop11GosEGxFNd+bt7ZjJ5O64xIQk4AfH7h25fW/ezl5ijuO41EOG7Ngz/g0MroHSzri5Mu6HfdIeLZ+Ccrlsxu+DNN3dxihffKbRfNU8k9xsJuwsnEgGILp2SXRcStNG8tE8y57MGHGNNHO25I2JRLCZnveAbwIyZsBR+5GbTtHsnEsrey+/90BvDdLwS2LYjk0g8mxNWFLYnbIzzxTwjKWMsDb5mRuxs9p6VDWFaRP9twXccNI94Khl5bpqRC7fk9sBrirelsgUfBPgRRA5x45FuBdwQYwX5t/gPfkOw0ZQmKbBADcfg8bi5sKiLAhwJBlOBb/BXKYk3+HC5o/qOpF7AItyJYCNgdP1BzPKZ/IEsAlsgU6hoQd0AotOYx9o2BB6A0gDGi3OX8qmJnyaiFPy/tXeNSINyQbDXJvghmNYPL69QIWvondToyUDfwEGIA5CDQCYAJ00sjXWLA7670MEOAFNK4mUMpN25nH4lqT3/eumv2lfA3wa9CLtAGHgJw58DQB9JEErhpCWPvPny94HqqZpRhBoAPiZiEqQuKY/m5CpVCp2RuS6gT8z6IpBUNWSyAaY1YtwI1FEJYOzBd0iNAEcF1zdJDQBTacSqRdF9AO/7gasdl0M9gAAAABJRU5ErkJggg=="
+    }
+  ],
+  "tilesets": [
+    {"label": "Jungle_tiles", "path": "../../Documents/GitHub/Testproject/craftpix-781131-free-swamp-game-tileset-pixel-art/1 Tiles/Tileset.png", "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADACAMAAABCiUr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTBCODIyQjk1RjhBMTFFQUEzMjBFM0M5NzcwNTg1NzEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTBCODIyQkE1RjhBMTFFQUEzMjBFM0M5NzcwNTg1NzEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5MEI4MjJCNzVGOEExMUVBQTMyMEUzQzk3NzA1ODU3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5MEI4MjJCODVGOEExMUVBQTMyMEUzQzk3NzA1ODU3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ptxpg94AAAAhUExURViAzGKr1LvE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", "tileWidth": 32, "tileHeight": 32, "tileSeparationX": 0, "tileSeparationY": 0},
+    {"label": "New Tileset", "path": "../../Documents/GitHub/Testproject/craftpix-781131-free-swamp-game-tileset-pixel-art/1 Tiles/Tile_01.png", "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTY4RDgzNDM1RjhBMTFFQUFEOUJBRDhGNzJCNURBQzMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTY4RDgzNDQ1RjhBMTFFQUFEOUJBRDhGNzJCNURBQzMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNjhEODM0MTVGOEExMUVBQUQ5QkFEOEY3MkI1REFDMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNjhEODM0MjVGOEExMUVBQUQ5QkFEOEY3MkI1REFDMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PhYKG0wAAAAVUExURVI7QB83NiUTGlxrU4qWHz0lOwAAAIU2o8IAAAAHdFJOU////////wAaSwNGAAAAzElEQVR42pSTCxaEIAhFRX3uf8kJCIranIlTBnLjZ6XW8k9JLVPtIos9+kpEaqW8umhTiYFaJ7EDNQASVTW9BZsAurhiBuA1lC4GFDEgbAdYdE+I4WeCVYlgftt0vTAgUX1Tro9ATHGLwDXirAEKjxTeGqaqtg0Kpyjvk4QFSClgAdBXIuGjdgA7oAcHeA6cKejNy+EUWJr8CEgKOoHkvXCR6xSmfxDW5pjwDajxO/sPiDUswNugrofpc6CjxNgOt+lf1B1Y/oUL8AgwANpgDyNnoMbrAAAAAElFTkSuQmCC", "tileWidth": 8, "tileHeight": 8, "tileSeparationX": 0, "tileSeparationY": 0}
+  ]
+}
